@@ -1,0 +1,5 @@
+paramiko==2.9.2
+pytest==6.2.4
+pytest-xdist==2.4.0
+allure-pytest==2.9.43
+pytest-rerunfailures==10.0
