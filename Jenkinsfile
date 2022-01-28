@@ -5,7 +5,7 @@ node {
         branches: [[name: '*/master']],
         userRemoteConfigs: [[
             credentialsId: 'jenkins-github',
-            url: 'git@github.com:Eliseev-Max/warehouse_tests.git'
+            url: 'https://github.com/Eliseev-Max/warehouse_tests.git'
             ]]
         ])
     }
