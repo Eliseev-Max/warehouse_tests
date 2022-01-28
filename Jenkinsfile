@@ -2,7 +2,7 @@ node {
     stage('checkout') {
         checkout([
         $class: 'GitSCM',
-        branches: [[name: '*/master']],
+        branches: [[name: '*/main']],
         userRemoteConfigs: [[
             credentialsId: 'jenkins-github',
             url: 'https://github.com/Eliseev-Max/warehouse_tests.git'
