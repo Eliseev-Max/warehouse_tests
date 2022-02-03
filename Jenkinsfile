@@ -14,7 +14,7 @@ node {
     }
     stage('test') {
         sh """
-            docker run -v $WORKSPACE/allure-results/:/app/allure-results warehouse_tests:latest
+            docker run -v $WORKSPACE/:/app/allure-results warehouse_tests:latest
         """
     }
     stage('report-allure') {
