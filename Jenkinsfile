@@ -23,7 +23,7 @@ node {
             jdk: '',
             properties: [],
             reportBuildPolicy: 'ALWAYS',
-            results: [[path: 'allure-results']]
+            results: [[path: '$WORKSPACE/allure-results']]
         ])
     }
 }
