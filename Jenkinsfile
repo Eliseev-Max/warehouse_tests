@@ -14,7 +14,7 @@ node {
     }
     stage('test') {
         sh """
-            docker run -v $WORKSPACE/allure/:/app/allure-results wh_tests:latest
+            docker run -v $WORKSPACE/allure-results/:/app/allure-results wh_tests:latest && echo $WORKSPACE
         """
     }
     stage('report-allure') {
@@ -23,7 +23,7 @@ node {
             jdk: '',
             properties: [],
             reportBuildPolicy: 'ALWAYS',
-            results: [[path: 'allure']]
+            results: [[path: 'allure-results']]
         ])
     }
 }
