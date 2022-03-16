@@ -1,2 +1,0 @@
-[32mINFO    [0m SSHLogger:conftest.py:47 SSH connection is closed.
-Test module "test_channel_value.py" completed
