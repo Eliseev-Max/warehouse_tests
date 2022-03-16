@@ -1,0 +1,4 @@
+[32mINFO    [0m SSHLogger:conftest.py:40 Test module "test_channel_value.py" is running
+[32mINFO    [0m SSHLogger:conftest.py:43 SSH connection established
+[32mINFO    [0m paramiko.transport:transport.py:1873 Connected (version 2.0, client OpenSSH_5.8)
+[32mINFO    [0m paramiko.transport:transport.py:1873 Authentication (password) successful!
