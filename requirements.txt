@@ -1,4 +1,4 @@
-paramiko==2.9.2
+paramiko==2.10.0
 pytest==6.2.4
 pytest-xdist==2.4.0
 allure-pytest==2.9.43
