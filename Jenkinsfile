@@ -14,7 +14,7 @@ node {
     }
     stage('test') {
         sh """
-            docker run -v $WORKSPACE/allure-results/:/app/allure-results wh_tests:latest pytest --host ${IP}
+            docker run -v $WORKSPACE/allure-results/:/app/allure-results wh_tests:latest pytest
         """
     }
     stage('report-allure') {
